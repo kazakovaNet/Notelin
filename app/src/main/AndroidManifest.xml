@@ -3,12 +3,13 @@
           package="ru.kazakova_net.notelin">
 
     <application
+            android:name=".NotelinApplication"
             android:allowBackup="true"
             android:icon="@mipmap/ic_launcher"
             android:label="@string/app_name"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".ui.activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,7 +26,7 @@
 
         <meta-data
                 android:name="AA_MODELS"
-                android:value="imangazaliev.notelin.mvp.models.Note" />
+                android:value="ru.kazakova_net.notelin.mvp.models.Note" />
 
     </application>
 

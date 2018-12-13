@@ -13,7 +13,7 @@
         android:padding="16dp">
 
         <TextView
-            android:id="@+id/tvItemNoteTitle"
+            android:id="@+id/itemNoteTitleTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:singleLine="true"
@@ -22,7 +22,7 @@
             />
 
         <TextView
-            android:id="@+id/tvItemNoteDate"
+            android:id="@+id/itemNoteDateTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:singleLine="true"
