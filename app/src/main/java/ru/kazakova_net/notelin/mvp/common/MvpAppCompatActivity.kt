@@ -1,7 +1,7 @@
 package ru.kazakova_net.notelin.mvp.common
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import com.arellomobile.mvp.MvpDelegate
 
 open class MvpAppCompatActivity : AppCompatActivity() {

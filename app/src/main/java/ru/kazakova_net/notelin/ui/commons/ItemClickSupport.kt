@@ -1,6 +1,6 @@
 package ru.kazakova_net.notelin.ui.commons
 
-import android.support.v7.widget.RecyclerView
+import androidx.recyclerview.widget.RecyclerView
 import android.view.View
 import ru.kazakova_net.notelin.R
 

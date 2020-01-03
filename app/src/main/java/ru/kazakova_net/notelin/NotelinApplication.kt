@@ -3,6 +3,7 @@ package ru.kazakova_net.notelin
 import android.app.Application
 import android.content.Context
 import ru.kazakova_net.notelin.di.AppComponent
+import ru.kazakova_net.notelin.di.DaggerAppComponent
 import ru.kazakova_net.notelin.di.NoteModelModule
 import ru.kazakova_net.notelin.utils.initPrefs
 
@@ -20,6 +21,6 @@ class NotelinApplication : Application() {
 
         context = this
 
-        graph = AppComponent.builder().noteModelModule(NoteModelModule()).build()
+        graph = DaggerAppComponent.builder().noteModelModule(NoteModelModule()).build()
     }
 }

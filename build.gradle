@@ -7,10 +7,11 @@ buildscript {
             url 'https://maven.google.com/'
             name 'Google'
         }
+        google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.1.0'
-        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.4'
+        classpath 'com.android.tools.build:gradle:3.5.3'
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.7'
     }
 }
 
